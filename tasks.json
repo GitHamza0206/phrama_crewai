@@ -1,0 +1,45 @@
+{
+  "threats_research": {
+    "description": "Conduct a through research on  the cyber security risks and threats in a pharma company.Your response should contain two main sections the first one is the cyber security threats and risks that an employee faces inside the office and the second corresponds to the ones that he faces outside the company. Make sure that the content of these two sections are different. You should also consider for each section two scenarios : 1- In operations : These are people who are into Operations and drive the technology part 2- In labs : These are people who works in the labs, developing drugs and doing the R&D for drug development",
+    "agent": "cyber_security_expert",
+    "expected_output": "list of **top 10** threats and risks which an employee faces in the  office, across the two setups (Operations teams as well as in labs)",
+    "doc_title": "threats_research"
+  },
+
+  "create_detailed_plan": {
+    "description": "Your job is to create a detailed plan suggesting best possible formats for the top risks/threats. Your plan will act as guidelines for the content creators/graphic designers to refer to for developing the projects/media. The project plan must include the following for each format suggestion:\n1. Name of the project (format), \n2. Format type, \n3. which threats or risks is it addressing (explain how a particular format type will be effective in reaching the maximum associates) \n4. the story for the format/description, number of screens or pages, and any other detail which will help the content creators/graphic designers to prepare the content or elaborate on or build on.\n\nExamples of formats can include flyer, ppt deck, MS Teams background image, email posts, social media group post, videos (animated/informative), comic strip, mini games, interactive quizzes infographics, pictures, etc. or any other formats you can suggest which are creative and can be very effective in reaching as many employees as possible and keep them involved and engaged.",
+    "agent": "creative_lead",
+    "expected_output": "A detail plan respecting the format:\n1. Name of the project (format), \n2. Format type, \n3. which threats or risks is it addressing (explain how a particular format type will be effective in reaching the maximum associates) \n4. the story for the format/description, number of screens or pages, and any other detail which will help the content creators/graphic designers to prepare the content or elaborate on or build on.",
+    "doc_title": "plan"
+  },
+  "create_board_game": {
+    "description": "Your job is to conceptualize a board game where each of the above content will be a task to be completed to collect a clue/hint. The ultimate task is to complete as many tasks as possible and collect clues. The clues can form a slogan, etc as a final target. Minimum who completes 7 gets a badge.",
+    "agent": "creative_lead",
+    "expected_output": "List of tasks to be completed",
+    "doc_title": "board_game"
+  },
+  "create_communication_plan": {
+    "description": "Your job is to also prepare a 30-day communication plan indicating which message, media or content will be shared on each day, in order to reach out to the 100,000 associates spread across different countries.",
+    "agent": "creative_lead",
+    "expected_output": "A document with 30-day communication plan",
+    "doc_title": "communication_plan"
+  },
+  "create_marketing_tech": {
+    "description": "Your job is to also suggest best marketing and communications techniques to reach a wider audience.",
+    "agent": "creative_lead",
+    "expected_output": "A document with the best communication techniques",
+    "doc_title": "marketing_tech"
+  },
+  "create_creative_writing": {
+    "description": "Your job is to write compelling and stimulating content in English language for the projects shared by the creative lead. Content includes story, description, dialogues, email matter, social media posts matter, etc.",
+    "agent": "content_writer",
+    "expected_output": "Stimulating content",
+    "doc_title": "creative_writing"
+  },
+  "create_designs": {
+    "description": "Your job is to design the projects as received from the creative head and the related content as received from the content writer.",
+    "agent": "graphic_designer",
+    "expected_output": "Design document",
+    "doc_title": "desgin_docs"
+  }
+}
