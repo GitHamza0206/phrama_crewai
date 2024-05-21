@@ -7,6 +7,10 @@ import os
 import json 
 import html_content 
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 class StreamToExpander:
     def __init__(self, expander):
         self.expander = expander
