@@ -2,6 +2,7 @@ crewai
 crewai_tools
 langchain
 langchain_community
+langchain_groq
 python-dotenv
 Requests
 sec_api
