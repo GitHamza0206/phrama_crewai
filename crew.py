@@ -11,9 +11,12 @@ import json
 from langchain_groq import ChatGroq
 
 load_dotenv()
+
+
 llm = ChatGroq(
             temperature=0, 
-            model_name="llama3-8b-8192"
+            model_name="llama3-8b-8192",
+
         )
 
 
